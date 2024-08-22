@@ -1,0 +1,5 @@
+environment:
+  key: ${CUSTOM_KEY:"default key"}
+spring:
+  application:
+    name: "render.com"
