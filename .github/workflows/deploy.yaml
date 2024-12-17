@@ -64,4 +64,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: igorcossta/my-docker-repo/spring-app:${{ needs.commit-hash.outputs.commit_hash }}
+          tags: igorcossta/my-docker-repo:${{ needs.commit-hash.outputs.commit_hash }}
