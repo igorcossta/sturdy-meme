@@ -64,4 +64,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: igorcossta/my-docker-repo:${{ needs.commit-hash.outputs.commit_hash }}-prod
+          tags: |
+            igorcossta/my-docker-repo:${{ needs.commit-hash.outputs.commit_hash }}
+            igorcossta/my-docker-repo:prod
