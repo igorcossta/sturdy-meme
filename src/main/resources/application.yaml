@@ -3,3 +3,5 @@ environment:
 spring:
   application:
     name: "render.com"
+server:
+  port: 0
