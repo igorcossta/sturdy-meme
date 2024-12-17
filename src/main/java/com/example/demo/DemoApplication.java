@@ -27,7 +27,7 @@ public class DemoApplication {
         @GetMapping
         public Msg helloFromRender() {
             logger.info(CUSTOM_KEY);
-            return new Msg("Hello from render.com", ZonedDateTime.now(offset));
+            return new Msg("An awesome API :D", ZonedDateTime.now(offset));
         }
 
         @GetMapping("{val1}/{val2}")
